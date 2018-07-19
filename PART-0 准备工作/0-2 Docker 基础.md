@@ -48,7 +48,7 @@ Docker 是基于操作系统层面的虚拟化技术，
 
 ## 二、Windows 7 安装 Docker
 
-目前 Docker 分为两个发行版，社区版（CE）和企业版（EE），企业版提供一些收费服务，对于我们普通开发者来说，社区版就足以使用，所以我们选择安装社区版就行了。早期的 Docker 是基于 LXC 的，对于 Windows 7，官方提供了 [Docker Toolbox](https://download.docker.com/win/stable/DockerToolbox.exe) 集成工具以方面使用 Docker。 Docker Toolbox 实际上集成了 VirtualBox、boot2docker 和一些 docker 常用工具，如 git、docker-compose、docker-machine 等。从官方下载 [Docker ToolBox ](https://download.docker.com/win/stable/DockerToolbox.exe)，安装即可（如需更加详细的安装教程可自行 Google 或百度之），需要注意的是安装路径不应有中文字符。
+目前 Docker 分为两个发行版，社区版（CE）和企业版（EE），企业版提供一些收费服务，对于我们普通开发者来说，社区版就足以使用，所以我们选择安装社区版就行了。早期的 Docker 是基于 LXC 的，对于 Windows 7，官方提供了 [Docker Toolbox](https://download.docker.com/win/stable/DockerToolbox.exe) 集成工具用于支持 Docker。 Docker Toolbox 实际上集成了 VirtualBox、boot2docker 和一些 docker 常用工具，如 git、docker-compose、docker-machine 等。从官方下载 [Docker ToolBox ](https://download.docker.com/win/stable/DockerToolbox.exe)，安装即可（如需更加详细的安装教程可自行 Google 或百度之），需要注意的是安装路径不应有中文字符。
 
 一般而言，安装完成之后，点击桌面上的 `Docker QuickStart Terminal` 快捷方式或进入安装目录双击 `start.sh`启动 Docker 服务。启动 Docker 服务后，使用如下命令查看 Docker 相关信息，
 
